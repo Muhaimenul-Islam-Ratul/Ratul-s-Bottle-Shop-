@@ -1,0 +1,11 @@
+.bottle{
+    border: 2px solid seagreen;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #0118D8 10%, #000814 100%);
+}
+
+.bottle-img{
+    width: 200px;
+    border-radius: 15px;
+}

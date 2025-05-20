@@ -1,0 +1,26 @@
+.cart-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    
+    gap: 10px;
+    margin-bottom: 100px;
+    
+}
+.one-cart{
+    border: 1px solid white;
+    height: 200PX;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.cart-container  img{
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 15px;
+    
+    
+    
+}
+.cart-container p{
+    font-size: x-small;
+}

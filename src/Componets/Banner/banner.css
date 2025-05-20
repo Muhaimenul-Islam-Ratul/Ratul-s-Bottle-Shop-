@@ -1,0 +1,85 @@
+/* Banner Section */
+.banner {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #0505a5, #1752f5);
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+.logo-section img {
+
+  background : linear-gradient(to left, #f5f5f5, #030351);
+  border-radius: 100px;
+  width: 80px;
+  height: 80px;
+  box-shadow: 5px 10px 30px 20px #0a0a30;
+}
+
+.banner-content {
+  max-width: 600px;
+}
+
+.banner-title {
+  font-size: 2.5rem;
+  color: #FE5D26;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.banner-subtitle {
+  font-size: 1.2rem;
+  color: #eee6e6;
+  margin-bottom: 2rem;
+}
+
+.banner-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #2e7d32;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.banner-button:hover {
+  background-color: #FE5D26;
+}
+
+.banner-image img {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+}
+
+
+/* header section  */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+ gap: 20px;
+ display: flex;
+
+ 
+}
+
+.nav-links a {
+  color: #f5f5f5;
+ 
+  padding: 5px 10px;
+  font-size: larger;
+}
+
+
+.shop-name{
+    font-size:xx-large;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    
+}
